@@ -16,5 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/image',[ImageController::class, 'store']);
 Route::get('/image', [ImageController::class, 'lists']);
-Route::put('/image/resize', [ImageController::class, 'resize']);
+Route::put('/resize', [ImageController::class, 'resize']);
 Route::delete('/image/{image}', [ImageController::class, 'delete']);

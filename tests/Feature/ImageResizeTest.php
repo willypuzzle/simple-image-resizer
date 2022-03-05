@@ -24,7 +24,7 @@ class ImageResizeTest extends TestCase
     {
         $imageModel = $this->imageFactory();
 
-        $response = $this->json('put', '/api/image/resize', [
+        $response = $this->json('put', '/api/resize', [
             'name' => $imageModel->name,
             'width' => 640,
             'height' => 480
@@ -54,7 +54,7 @@ class ImageResizeTest extends TestCase
     {
         $imageModel = $this->imageFactory();
 
-        $response = $this->json('put', '/api/image/resize', [
+        $response = $this->json('put', '/api/resize', [
             'name' => Str::random(32),
             'width' => 640,
             'height' => 480
