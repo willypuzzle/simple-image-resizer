@@ -18,7 +18,7 @@ class ImageController extends Controller
             'file' => [
                 'required',
                 'image',
-                'mimes:jpg,jpeg,png,gif,svg',
+                'mimes:jpg,jpeg,png,gif',
                 'max:4096',
             ],
             'name' => [

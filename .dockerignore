@@ -13,3 +13,4 @@ Dockerfile
 Dockerfile.testing
 docker-composer.testing.yml
 docker-composer.yml
+.env
