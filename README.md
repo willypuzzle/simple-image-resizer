@@ -64,4 +64,4 @@ Notes:
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The simple-image-resizer is a open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
