@@ -55,7 +55,7 @@ Notes:
 
 #General Notes:
 - All the tests are located under the tests/Feature directory
-- In the docs directory is located a configuration file that can be imported on Insomnia api client, the famous api tester.
+- In the docs directory is located a configuration file that can be imported on Insomnia api client, the famous open-source api tester.
 - For data I used a sqlite database.
 - the docker images generated and loaded by Dockerfile and docker-compose files are not suited for production but only for testing.
 - It should be run on localhost.
